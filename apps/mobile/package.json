@@ -1,0 +1,36 @@
+{
+  "name": "mobile",
+  "version": "0.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start",
+    "dev:ios": "expo run:ios",
+    "dev:android": "expo run:android",
+    "preview": "expo preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "echo \"no tests yet - Phase 1\" && exit 0"
+  },
+  "dependencies": {
+    "expo": "^51.0.0",
+    "expo-router": "^3.5.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "^18.3.1",
+    "react-native": "^0.74.0",
+    "@react-navigation/native": "^6.1.17",
+    "@supabase/supabase-js": "^2.45.4",
+    "@tanstack/react-query": "^5.59.0",
+    "zustand": "^4.5.5",
+    "@novaro/shared-types": "workspace:*",
+    "@novaro/shared-validation": "workspace:*",
+    "@novaro/shared-constants": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/react": "^18.3.11",
+    "@types/react-native": "^0.74.1",
+    "eslint": "^8.57.1",
+    "expo-cli": "^6.3.9"
+  }
+}
